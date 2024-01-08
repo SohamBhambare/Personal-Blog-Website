@@ -1,0 +1,36 @@
+@import "style.css";
+@import "featured_articles.css";
+@import "footer.css";
+
+/* Header */
+.header{
+  background-color: #252830;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+}
+
+.logo{
+  font-size: 2.4rem;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn{
+  cursor: pointer;
+}

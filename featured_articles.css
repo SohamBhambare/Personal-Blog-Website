@@ -1,0 +1,112 @@
+@import "style.css";
+@import "header.css";
+@import "footer.css";
+
+/* Featured articles */
+.featured-articles{
+  padding-block: 2rem;
+}
+
+.section-header-offset{
+  margin-top: 7.4rem;
+}
+
+.featured-articles-container,
+.featured-content{
+  gap: 2rem;
+}
+
+.headline-banner{
+  background-color: #252830;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+.headline{
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 4px;
+  height: 100%;
+}
+
+.headline span{
+  height: inherit;
+}
+
+.article{
+  position: relative;
+  min-height: 30rem;
+}
+
+.article-image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .25s;
+}
+
+.article-category{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  background-color:black;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.article-data-container{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 2rem 1.5rem;
+  background-color: rgba(0,0,0, .75);
+  z-index: 10;
+  transition: background-color .5s;
+}
+
+.article:hover .article-data-container{
+  background-color: black;
+  color: #fff;
+}
+
+.article:hover .article-data-spacer{
+  background-color: #fff;
+}
+
+.article:hover .article-title{
+  color: #fff;
+}
+
+.article-data{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.article-data-spacer{
+  width: .5rem;
+  height: .5rem;
+  background-color: #afb6cd;
+  transform: rotate(45deg);
+}
+
+.title{
+  color: #fff;
+}
+
+.article-title{
+  font-size: 2.4rem;
+}

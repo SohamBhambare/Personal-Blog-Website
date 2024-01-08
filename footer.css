@@ -1,0 +1,46 @@
+@import "style.css";
+@import "header.css";
+@import "featured_articles.css";
+
+/* Footer */
+.p-grid{
+  display: grid;
+}
+
+.footer{
+  background-color: #252830;
+}
+
+.footer-container{
+  gap: 2rem;
+}
+
+.company-data{
+  display: flex;
+  flex-direction: column;
+  order: 1;
+}
+
+.company-description{
+  margin-block: 2rem;
+  max-width: 75%;
+}
+
+.social-media{
+  margin-bottom: 3rem;
+}
+
+.copyright-notice{
+  opacity: .8;
+}
+
+.footer-list{
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-title{
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
